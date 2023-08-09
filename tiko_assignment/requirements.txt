@@ -1,0 +1,6 @@
+Django==4.2.4
+django-filter==23.2
+drf-spectacular==0.26.4
+flake8==6.1.0
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
