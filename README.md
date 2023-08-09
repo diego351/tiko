@@ -16,6 +16,6 @@
 
 # TODO:
 
-tests
-email verification
-interactive api tuning
+1. tests
+2. email verification
+3. interactive api tuning
