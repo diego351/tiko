@@ -11,7 +11,7 @@
 7. `python manage.py runserver`
 8. Open in browser `localhost:8000/api/docs`
 9. Register new user with `register_create` endpoint, remember `access` token value
-10. Login using credentials pasting plain token with `token_create`, pass email as username
+10. Login using `token_create` pasting plain token to Token field, pass email as username
 11. Play with entire api as you wish
 
 # TODO:
