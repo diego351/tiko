@@ -44,6 +44,7 @@ class SpectacularElementsView(APIView):
 
 class UserRegistrationView(CreateAPIView):
     serializer_class = UserRegistrationSerializer
+    authentication_classes = []
 
 
 class MyEventsView(ListCreateAPIView):
