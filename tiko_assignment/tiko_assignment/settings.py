@@ -142,3 +142,9 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(hours=1),
     'TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Tiko events API docs',
+    'DESCRIPTION': 'Tiko events API docs',
+    'VERSION': '1.0.0',
+}

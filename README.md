@@ -1,3 +1,5 @@
+![alt text](https://github.com/diego351/tiko/blob/master/image.png?raw=true)
+
 # Usage
 
 1. Assuming you have latest python3 installed, checkout repo
