@@ -19,4 +19,3 @@
 1. tests
 2. email verification
 3. interactive api tuning
-4. Many to many relation is not needed
