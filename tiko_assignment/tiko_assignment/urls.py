@@ -18,7 +18,7 @@ api_urlpatterns = [
     path('schema', SpectacularAPIView.as_view(), name="schema"),
     path('docs', SpectacularElementsView.as_view(), name='docs'),
     path('register', UserRegistrationView.as_view(), name='register'),
-    path('events/my', MyEventsView.as_view(), name='my-events'),
+    path('me/events', MyEventsView.as_view(), name='my-events'),
     path('events', AllEventsView.as_view(), name='events'),
     path(
         'events/<int:event_id>/participation',

@@ -46,7 +46,7 @@ class ParticipantSerializer(ModelSerializer):
 
     class Meta:
         model = Participant
-        fields = ('id', 'joined_at', 'user')
+        fields = ('joined_at', 'user')
 
 
 class EventSerializer(ModelSerializer):
