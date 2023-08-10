@@ -97,9 +97,6 @@ class UpdateCreateParticipationSerializer(ModelSerializer):
             },
         )
 
-        event.participants.add(participation)
-        event.save()
-
         return participation
 
 

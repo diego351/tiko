@@ -29,11 +29,14 @@ class Participant(BaseModel):
 
     user = ForeignKey(User, related_name='as_participant', on_delete=PROTECT)
     joined_at = DateTimeField(null=False)
+    event = ForeignKey('Event', on_delete=PROTECT, related_name='participants')
     status = TextField(choices=ParticipantStatus.choices())
+
+    class Meta:
+        unique_together = ['event', 'user']
 
 
 class Event(BaseModel):
     name = TextField(null=False)
     starting_at = DateTimeField(null=False)
-    participants = ManyToManyField(Participant)
     creator = ForeignKey(User, related_name='as_creator', null=False, on_delete=PROTECT)
