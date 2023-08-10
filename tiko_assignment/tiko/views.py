@@ -4,8 +4,7 @@ from drf_spectacular.utils import extend_schema
 from drf_spectacular.views import AUTHENTICATION_CLASSES
 from rest_framework.authentication import get_user_model
 from rest_framework.exceptions import NotFound
-from rest_framework.fields import ObjectDoesNotExist
-from rest_framework.generics import CreateAPIView, ListAPIView, ListCreateAPIView, RetrieveUpdateAPIView, UpdateAPIView
+from rest_framework.generics import CreateAPIView, ListAPIView, ListCreateAPIView, RetrieveUpdateAPIView
 from rest_framework.renderers import TemplateHTMLRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
