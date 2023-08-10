@@ -101,6 +101,8 @@ class UpdateCreateParticipationSerializer(ModelSerializer):
 
 
 class UpdateEventSerializer(ModelSerializer):
+    participants = ParticipantSerializer(many=True, read_only=True)
+
     class Meta:
         model = Event
-        fields = ('name', 'starting_at')
+        fields = ('name', 'starting_at', 'participants')
